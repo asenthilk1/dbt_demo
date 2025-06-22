@@ -1,4 +1,4 @@
 select 
 *
-from{{source('demo','bike')}}
-limit 10
+from {{ ref('stage_bike') }}
+--limit 10
